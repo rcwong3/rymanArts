@@ -45,6 +45,7 @@ nav.my-custom-nav {
 .orange-text{
   color:#FA8700;
 }
+
 .side-pad {
   padding-top: 30px;
   padding-right: 10px;
@@ -55,6 +56,7 @@ nav.my-custom-nav {
 .section {
   padding-top: 30px;
 }
+
 .middle-pad1{
   padding-bottom: 30px;
   padding-left: 50px;
@@ -62,13 +64,6 @@ nav.my-custom-nav {
 .center{
   text-align: center;
 }
-
-.image-center{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .fa {
   padding-top: 20px;
   font-size: 30px;

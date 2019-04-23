@@ -1,27 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Non Profit Page</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-        <!-- Bootstrap cdn -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    
-        <!-- link to animation -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    
-        <!-- Font Awesome Glyphicons -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    
-       <!-- locall css style-->
-       <link rel="stylesheet" href="assets/css/students.css">
-    </head>
-    
-    <body>
+
+<head>
+    <meta charset="utf-8">
+    <title>Non Profit Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <!-- link to animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <!-- Font Awesome Glyphicons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- locall css style-->
+    <link rel="stylesheet" href="assets/css/homepage.css">
+
+    <!--social media buttons and login-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- MUY IMPORTANTE DOCUMENTATION -->
+    <!-- https://getbootstrap.com/docs/4.0/components/navbar/ -->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <title>Navbars</title>
+    <!-- common local css stylesheet -->
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+    <link rel="stylesheet" href="assets/css/homepage.css">
+
+</head>
+
+<body>
+
+    <body style="background-color: #fddcb5">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light my-custom-nav">
+            <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png"
+                    class="img-fluid my-website-logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active custom-active-tab">
+                        <a class="nav-link" href="index.html">
+                            <h4 class="orange-text navbar-pad">Home</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item active custom-active-tab">
+                        <a class="nav-link" href="index.html">
+                            <h4 class="orange-text navbar-pad">About</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item active custom-active-tab">
+                        <a class="nav-link" href="students.html">
+                            <h4 class="orange-text navbar-pad">Students</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item active custom-active-tab">
+                        <a class="nav-link" href="students.html">
+                            <h4 class="orange-text navbar-pad">Alumni</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item active custom-active-tab">
+                        <a class="nav-link" href="students.html">
+                            <h4 class="orange-text navbar-pad">Donate</h4>
+                        </a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <div class="row">
+            <div class="col-sm-3 side-blue">
+                <div class="side-pad">
+                    <h3>Upcoming Events</h3>
+                    <div class="section">
+                        <h5>24 FEB</h5>
+                        <p>Ryman on View: Otis College of Art and Design</p>
+                        <p>VIEW ALL BY LIST</p>
+                        <p>VIEW CURRENT MONTH</p>
+                    </div>
+                    <div class="section">
+                        <h5>DONATE NOW</h5>
+                    </div>
+                    <div class="section">
+                        <p>Fall Application Deadline</p>
+                        <p>May 10th</p>
+                    </div>
+                    <div class="section">
+                        <h5>UPCOMING EVENTS</h5>
+                    </div>
+                    <div class="section">
+                        <h5>NEWS</h5>
+                    </div>
+                    <div>
+                        <h6>Board Perspective – An Education Model That Works</h6>
+                        <p>By David A. Price, Vice President of Ryman Arts Board of Directors Attraction architect David
+                            A. Price, President and Founder of the…READ MORE</p>
+                    </div>
+                    <div>
+                        <h6>Ryman Arts: Highlights of 2018</h6>
+                        <p>By Marilyn Nguyen (Ryman ’11), Development Coordinator From offering our very first Alumni
+                            Fellowship to reaching our highest number…READ MORE</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-1 ligtorange"></div>
+            <div class="col-8 white">
+                <div class="middle-pad1"></div>
+                <h3 class="center orange-text">Course Descriptions</h3>
+                <p class="center section">Welcome! Whether you are just thinking about applying to Ryman Arts, or have
+                    been a student with us for some time, this is the place where you can find out what you need to
+                    know.</p>
+                <p class="center">All students start with Foundation Drawing. Upon completion of each semester they
+                    reapply to move on to the next course level.</p>
+                <p class="section"> Foundation Drawing emphasizes the foundations of drawing technique and composition.
+                    The class includes an introduction to figure drawing.</p>
+                <p class="">Intermediate Drawing and Painting builds on the previous course, and introduces watercolor
+                    painting, more extensive use of color, figure drawing, and portraiture.</p>
+                <p>Advanced Art: Painting focuses on acrylic painting and mixed media in more extended projects. The
+                    class also includes figure study.</p>
+                <h3 class="center orange-text section">Courses</h3>
+                <h5 class="center section">Spring 2019, California State University, Fullerton:</h5> 
+                <p class="center section">Foundation Drawing - Sergio Rebia</p>
+                <p class="center">Intermediate Drawing & Painting - Kaleeka Bond</p>    
+                <p class="center">Intermediate Drawing & Painting - Malaika Latty</p>      
+                <p class="center">Advanced Painting - Manny Cosentino</p>       
+                <p class="center">Advanced Painting - Holly Boruck</p>       
+
+                <h5 class="center section">Spring 2019, Otis College of Art & Design:</h5> 
+                <p class="center section">Foundation Drawing - Ja'Rie Gray</p>
+                <p class="center">Intermediate Drawing & Painting - Kaleeka Bond</p>    
+                <p class="center">Intermediate Drawing & Painting - Marc Kompaneyets</p>      
+                <p class="center">Advanced Painting - David Schoffman</p>       
+                <p class="center">Advanced Painting - Robin Palanker</p> 
+
+                <p class="center section">Our Student Handbook is your resource for learning what to expect from your time at Ryman Arts, and what we expect from you as a student. It also includes practical information about getting to classes and contacting your instructor.</p>
+            </div>
+        </div>
 
     </body>
 
