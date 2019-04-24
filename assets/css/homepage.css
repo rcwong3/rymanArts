@@ -69,6 +69,10 @@ nav.my-custom-nav {
   margin-right: auto;
 }
 
+.img-fluid{ max-width: 100%; 
+  height: auto;
+}
+
 .fa {
   padding-top: 20px;
   font-size: 30px;
