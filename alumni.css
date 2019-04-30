@@ -8,7 +8,6 @@ img.img-fluid.my-website-logo {
   }
   
   
-  
   .navbar {
     height:auto;
   }
@@ -47,9 +46,18 @@ img.img-fluid.my-website-logo {
     color:#FA8700;
   }
   
-  .blue-text{
-    color:#6FAEDD;
+  .dark-gray-text{
+    color:#707070;
   }
+  
+  .blue-text{
+      color:#6FAEDD;
+  }
+  
+  .rounded-button{
+    border-radius: 20px;
+  }
+  
   .side-pad {
     padding-top: 30px;
     padding-right: 10px;
@@ -57,28 +65,47 @@ img.img-fluid.my-website-logo {
     padding-left: 20px;
   }
   
+  .image-pad{
+    padding-left:50px;
+  }
+
   .section {
     padding-top: 30px;
   }
-  
   .section-bottom {
     padding-bottom: 30px;
   }
-  
+  .section-side {
+    padding-left:30px;
+    padding-right: 30px;
+  }
   .middle-pad1{
     padding-bottom: 30px;
     padding-left: 50px;
   }
-   
-  
   .center{
     text-align: center;
   }
+  
+  .image-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .img-fluid{ max-width: 100%; 
+    height: auto;
+  }
+  
+  
+  .footer-blue{
+    background:#9FC9E8
+  }
   .fa {
-    padding-top: 20px;
-    font-size: 30px;
-    width: 50px;
-    height:50px;
+    padding-top: 8px;
+    font-size: 15px;
+    width: 30px;
+    height:30px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -104,9 +131,5 @@ img.img-fluid.my-website-logo {
     color: white;
   }
   
-  .column {
-    float: left;
-    width: 50%;
-  }
   
   
