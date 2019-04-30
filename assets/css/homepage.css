@@ -45,9 +45,14 @@ nav.my-custom-nav {
 .orange-text{
   color:#FA8700;
 }
+
 .dark-gray-text{
   color:#707070;
 }
+.rounded-button{
+  border-radius: 20px;
+}
+
 .side-pad {
   padding-top: 30px;
   padding-right: 10px;
@@ -57,6 +62,13 @@ nav.my-custom-nav {
 
 .section {
   padding-top: 30px;
+}
+.section-bottom {
+  padding-bottom: 30px;
+}
+.section-side {
+  padding-left:30px;
+  padding-right: 30px;
 }
 .middle-pad1{
   padding-bottom: 30px;
@@ -76,11 +88,15 @@ nav.my-custom-nav {
   height: auto;
 }
 
+
+.footer-blue{
+  background:#9FC9E8
+}
 .fa {
-  padding-top: 20px;
-  font-size: 30px;
-  width: 50px;
-  height:50px;
+  padding-top: 8px;
+  font-size: 15px;
+  width: 30px;
+  height:30px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
