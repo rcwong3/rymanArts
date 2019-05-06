@@ -45,7 +45,10 @@ img.img-fluid.my-website-logo {
   .orange-text{
     color:#FA8700;
   }
-  
+  .light-orange-text{
+color:  #F89521;
+  }
+ 
   .dark-gray-text{
     color:#707070;
   }
@@ -54,9 +57,15 @@ img.img-fluid.my-website-logo {
       color:#6FAEDD;
   }
   
+
   .rounded-button{
     border-radius: 20px;
   }
+.margin-white{
+    margin-right:60px;
+    margin-left: 60px;
+}
+ 
   
   .side-pad {
     padding-top: 30px;
