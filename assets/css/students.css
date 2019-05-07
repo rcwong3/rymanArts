@@ -3,7 +3,7 @@ img.img-fluid.my-website-logo {
   height: 90px;
 }
 nav.my-custom-nav {
-  height: 130px;
+
   background-color:#fddcb5!important;
 }
 
@@ -47,6 +47,11 @@ nav.my-custom-nav {
   color:#FA8700;
 }
 
+.margin-white{
+  margin-right:60px;
+  margin-left: 60px;
+}
+
 
 .side-pad {
   padding-top: 30px;
@@ -70,6 +75,41 @@ nav.my-custom-nav {
 .center{
   text-align: center;
 }
+
+.dark-gray-text{
+  color:#707070;
+}
+
+p {
+  font-size: 12px;
+}
+
+h1{
+  font-size: 32px;
+}
+
+h2{
+  font-size: 22px;
+}
+
+h3{
+  font-size: 20px;
+}
+
+h4{
+  font-size: 18px;
+}
+
+h4{
+  font-size: 16px;
+}
+
+h6{
+  font-size:14px;
+}
+
+
+
 .fa {
   padding-top: 20px;
   font-size: 30px;

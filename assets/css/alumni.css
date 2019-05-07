@@ -3,10 +3,9 @@ img.img-fluid.my-website-logo {
     height: 90px;
   }
   nav.my-custom-nav {
-    height: 130px;
+
     background-color:#fddcb5!important;
   }
-  
   
   .navbar {
     height:auto;
@@ -51,7 +50,7 @@ img.img-fluid.my-website-logo {
   }
   
   .blue-text{
-      color:#6FAEDD;
+      color:#9FC9E8;
   }
   
   .rounded-button{
@@ -64,6 +63,12 @@ img.img-fluid.my-website-logo {
     padding-bottom: 30px;
     padding-left: 20px;
   }
+
+  .margin-white{
+    margin-right:60px;
+    margin-left: 60px;
+}
+ 
   
   .image-pad{
     padding-left:50px;
@@ -101,6 +106,34 @@ img.img-fluid.my-website-logo {
   .footer-blue{
     background:#9FC9E8
   }
+
+  p {
+    font-size: 12px;
+  }
+  
+  h1{
+    font-size: 32px;
+  }
+  
+  h2{
+    font-size: 22px;
+  }
+  
+  h3{
+    font-size: 20px;
+  }
+  
+  h4{
+    font-size: 18 px;
+  }
+  
+  h4{
+    font-size: 16 px;
+  }
+  h6{
+    font-size:14px;
+  }
+  
   .fa {
     padding-top: 8px;
     font-size: 15px;

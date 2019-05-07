@@ -5,7 +5,7 @@ img.img-fluid.my-website-logo {
 
   
   nav.my-custom-nav {
-    height: 130px;
+    
     background-color:#fddcb5!important;
   }
   
@@ -47,6 +47,10 @@ img.img-fluid.my-website-logo {
   .orange-text{
     color:#FA8700;
   }
+
+  .dark-gray-text{
+    color:#707070;
+  }
   
   .side-pad {
     padding-top: 30px;
@@ -58,7 +62,6 @@ img.img-fluid.my-website-logo {
   .section {
     padding-top: 30px;
   }
-  
   .section-bottom {
     padding-bottom: 30px;
   }
@@ -70,6 +73,35 @@ img.img-fluid.my-website-logo {
   .center{
     text-align: center;
   }
+
+  p {
+    font-size: 12px;
+  }
+  
+  h1{
+    font-size: 32px;
+  }
+  
+  h2{
+    font-size: 22px;
+  }
+  
+  h3{
+    font-size: 20px;
+  }
+  
+  h4{
+    font-size: 18px;
+  }
+  
+  h4{
+    font-size: 16px;
+  }
+
+  h6{
+    font-size:14px;
+  }
+
   .fa {
     padding-top: 20px;
     font-size: 30px;

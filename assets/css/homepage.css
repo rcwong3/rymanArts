@@ -3,9 +3,10 @@ img.img-fluid.my-website-logo {
   height: 90px;
 }
 nav.my-custom-nav {
-  height: 130px;
+  /* height: 130px; */
   background-color:#fddcb5!important;
 }
+
 
 
 .navbar {
@@ -95,7 +96,33 @@ nav.my-custom-nav {
   background:#9FC9E8
 }
 
+p {
+  font-size: 12px;
+}
 
+h1{
+  font-size: 32px;
+}
+
+h2{
+  font-size: 22px;
+}
+
+h3{
+  font-size: 20px;
+}
+
+h4{
+  font-size: 18px;
+}
+
+h4{
+  font-size: 16px;
+}
+
+h6{
+  font-size:14px;
+}
 
 .fa {
   padding-top: 8px;
