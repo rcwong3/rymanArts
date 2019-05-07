@@ -77,6 +77,11 @@ img.img-fluid.my-website-logo {
   .section {
     padding-top: 30px;
   }
+
+  .small-section{
+    padding-top:5px;
+  }
+
   .section-bottom {
     padding-bottom: 30px;
   }
